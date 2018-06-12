@@ -1,0 +1,22 @@
+TICKET SERVICE README
+
+Assumptions:
+1. Venue row has 33 seats across and 9 down
+2. Middle seats in the performance venue are the best spots per row.
+   32 30 28 26 24 22 20 18 16 14 12 10 8 6 4 2 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33
+3. Rows will be displayed as letters will A will be the first row
+4. One show is being held at the venue.
+5. The same email will not be used for multiples holding/confirming of seats
+6. 1 minute before hold expires
+
+Instructions:
+    Building the solution:
+    Runs on JAVA 1.8+
+
+    Steps:
+    1: mvn install
+    2: java -jar TicketService-1.0-SNAPSHOT.jar
+    3: Follow Commands to use 0 to exit
+
+    Executing the tests:
+    mvn clean test
